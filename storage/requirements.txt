@@ -1,0 +1,9 @@
+streamlit
+gTTS
+fpdf
+deep-translator
+graphviz
+pypdf
+llama-index
+google-generativeai
+python-dotenv

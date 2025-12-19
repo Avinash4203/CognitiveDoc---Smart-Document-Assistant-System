@@ -1,0 +1,34 @@
+[2025-12-19 00:50:39,046] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-12-19 00:50:46,769] 112 datasets - INFO - TensorFlow version 2.20.0 available.
+[2025-12-19 00:53:50,084] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:53:51,934] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:53:51,935] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:53:54,285] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:53:54,289] 14 root - INFO - Initializing Local HuggingFace Embedding...
+[2025-12-19 00:53:54,799] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+[2025-12-19 00:54:08,231] 378 sentence_transformers.SentenceTransformer - INFO - 1 prompt is loaded, with the key: query
+[2025-12-19 00:54:08,878] 28 root - INFO - Creating VectorStoreIndex locally...
+[2025-12-19 00:54:16,991] 31 root - INFO - Preparing query engine...
+[2025-12-19 00:54:50,337] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:54:50,395] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:54:50,396] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:54:51,221] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:57:10,213] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:57:10,237] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:57:10,237] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:57:11,017] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:57:11,021] 14 root - INFO - Initializing Local HuggingFace Embedding...
+[2025-12-19 00:57:11,028] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+[2025-12-19 00:57:16,071] 378 sentence_transformers.SentenceTransformer - INFO - 1 prompt is loaded, with the key: query
+[2025-12-19 00:57:16,074] 28 root - INFO - Creating VectorStoreIndex locally...
+[2025-12-19 00:57:18,296] 31 root - INFO - Preparing query engine...
+[2025-12-19 00:57:47,180] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:57:47,205] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:57:47,205] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:57:48,259] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 01:30:33,441] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+[2025-12-19 01:30:45,906] 378 sentence_transformers.SentenceTransformer - INFO - 1 prompt is loaded, with the key: query
+[2025-12-19 01:30:53,044] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/show "HTTP/1.1 404 Not Found"
+[2025-12-19 01:32:39,368] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+[2025-12-19 01:32:47,421] 378 sentence_transformers.SentenceTransformer - INFO - 1 prompt is loaded, with the key: query
+[2025-12-19 01:32:49,543] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/show "HTTP/1.1 200 OK"

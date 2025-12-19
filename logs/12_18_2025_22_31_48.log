@@ -1,0 +1,43 @@
+[2025-12-18 22:33:28,158] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-12-18 22:33:35,673] 112 datasets - INFO - TensorFlow version 2.20.0 available.
+[2025-12-18 22:34:28,480] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:34:28,601] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:34:28,601] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-18 22:34:29,895] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-18 22:34:29,898] 14 root - INFO - Initializing Local HuggingFace Embedding...
+[2025-12-18 22:34:29,908] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+[2025-12-18 22:34:39,773] 378 sentence_transformers.SentenceTransformer - INFO - 1 prompt is loaded, with the key: query
+[2025-12-18 22:34:40,376] 28 root - INFO - Creating VectorStoreIndex locally...
+[2025-12-18 22:34:46,514] 31 root - INFO - Preparing query engine...
+[2025-12-18 22:35:36,183] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:35:36,230] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:35:36,230] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-18 22:35:37,436] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-18 22:36:04,574] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:36:04,607] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:36:04,608] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-18 22:36:05,494] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-18 22:44:28,492] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:44:28,591] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:44:28,592] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-18 22:44:29,922] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-18 22:48:17,064] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:48:17,090] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-18 22:48:17,091] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-18 22:48:18,221] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-18 23:32:14,548] 20 root - INFO - Loading file: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-18 23:32:14,851] 42 root - INFO - File loaded successfully: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-18 23:32:14,851] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-18 23:32:16,181] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-18 23:58:34,372] 20 root - INFO - Loading file: Summer internship summary.pdf
+[2025-12-18 23:58:34,945] 42 root - INFO - File loaded successfully: Summer internship summary.pdf
+[2025-12-18 23:58:34,947] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-18 23:58:39,912] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:00:04,532] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:00:04,609] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:00:04,610] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:00:06,053] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:02:01,869] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:02:01,997] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:02:01,998] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:02:02,879] 34 root - INFO - Gemini model loaded successfully.

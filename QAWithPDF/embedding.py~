@@ -1,0 +1,39 @@
+from llama_index.core import VectorStoreIndex, Settings
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+import sys
+from QAWithPDF.exception import customexception
+import logging
+
+def download_gemini_embedding(model, document):
+    """
+    Downloads and initializes a Local Embedding model (HuggingFace) 
+    to avoid Gemini API rate limits.
+    Returns a VectorStoreIndex query engine.
+    """
+    try:
+        logging.info("Initializing Local HuggingFace Embedding...")
+        
+        # FIX: Use a local model (BAAI/bge-small-en-v1.5)
+        # This runs on your machine and consumes ZERO Google API quota.
+        embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
+        
+        Settings.llm = model
+        Settings.embed_model = embed_model
+        Settings.chunk_size = 800
+        Settings.chunk_overlap = 20
+
+        logging.info("Creating VectorStoreIndex locally...")
+        index = VectorStoreIndex.from_documents(document)
+
+        logging.info("Preparing query engine...")
+        
+        # FIX: 'compact' mode bundles text to reduce LLM calls.
+        # 'similarity_top_k=2' retrieves fewer chunks to save tokens.
+        query_engine = index.as_query_engine(
+            response_mode="compact", 
+            similarity_top_k=2
+        )
+        return query_engine
+
+    except Exception as e:
+        raise customexception(e, sys)

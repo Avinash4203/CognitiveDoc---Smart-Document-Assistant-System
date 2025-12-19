@@ -1,0 +1,64 @@
+[2025-12-19 00:06:09,976] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-12-19 00:06:14,770] 112 datasets - INFO - TensorFlow version 2.20.0 available.
+[2025-12-19 00:06:44,984] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:06:45,724] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:06:45,724] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:06:47,553] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:06:47,556] 14 root - INFO - Initializing Local HuggingFace Embedding...
+[2025-12-19 00:06:47,776] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+[2025-12-19 00:06:59,861] 378 sentence_transformers.SentenceTransformer - INFO - 1 prompt is loaded, with the key: query
+[2025-12-19 00:07:00,512] 28 root - INFO - Creating VectorStoreIndex locally...
+[2025-12-19 00:07:09,676] 31 root - INFO - Preparing query engine...
+[2025-12-19 00:08:09,965] 20 root - INFO - Loading file: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:08:10,097] 42 root - INFO - File loaded successfully: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:08:10,098] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:08:11,513] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:12:46,393] 20 root - INFO - Loading file: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:12:46,434] 42 root - INFO - File loaded successfully: Avinash_Padidadakala - Resume.pdf
+[2025-12-19 00:12:46,436] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:12:47,369] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:14:24,975] 20 root - INFO - Loading file: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:14:24,992] 42 root - INFO - File loaded successfully: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:14:24,995] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:14:26,303] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:17:16,883] 20 root - INFO - Loading file: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:17:16,899] 42 root - INFO - File loaded successfully: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:17:16,901] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:17:18,154] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:17:54,613] 20 root - INFO - Loading file: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:17:54,624] 42 root - INFO - File loaded successfully: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:17:54,627] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:17:55,839] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:18:12,421] 20 root - INFO - Loading file: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:18:12,436] 42 root - INFO - File loaded successfully: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:18:12,438] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:18:14,068] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:19:09,144] 20 root - INFO - Loading file: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:19:09,163] 42 root - INFO - File loaded successfully: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:19:09,165] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:19:10,403] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:25:43,855] 20 root - INFO - Loading file: Summer internship summary.pdf
+[2025-12-19 00:25:43,914] 42 root - INFO - File loaded successfully: Summer internship summary.pdf
+[2025-12-19 00:25:43,917] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:25:45,039] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:27:53,865] 20 root - INFO - Loading file: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:27:53,885] 42 root - INFO - File loaded successfully: Week 6 Task_ Evaluation Metrics, Experiment Documentation, and Future Enhancements.docx
+[2025-12-19 00:27:53,888] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:27:54,429] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:31:56,369] 20 root - INFO - Loading file: Summer internship summary.pdf
+[2025-12-19 00:31:56,434] 42 root - INFO - File loaded successfully: Summer internship summary.pdf
+[2025-12-19 00:31:56,436] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:31:57,167] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:31:57,170] 14 root - INFO - Initializing Local HuggingFace Embedding...
+[2025-12-19 00:31:57,192] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+[2025-12-19 00:32:02,377] 378 sentence_transformers.SentenceTransformer - INFO - 1 prompt is loaded, with the key: query
+[2025-12-19 00:32:02,379] 28 root - INFO - Creating VectorStoreIndex locally...
+[2025-12-19 00:32:03,920] 31 root - INFO - Preparing query engine...
+[2025-12-19 00:32:36,494] 20 root - INFO - Loading file: Summer internship summary.pdf
+[2025-12-19 00:32:36,550] 42 root - INFO - File loaded successfully: Summer internship summary.pdf
+[2025-12-19 00:32:36,553] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:32:37,391] 34 root - INFO - Gemini model loaded successfully.
+[2025-12-19 00:34:25,026] 20 root - INFO - Loading file: Summer internship summary.pdf
+[2025-12-19 00:34:25,081] 42 root - INFO - File loaded successfully: Summer internship summary.pdf
+[2025-12-19 00:34:25,083] 24 root - INFO - Loading Gemini 1.5 Flash model...
+[2025-12-19 00:34:26,184] 34 root - INFO - Gemini model loaded successfully.
