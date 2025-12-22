@@ -24,3 +24,4 @@ textblob
 scikit-learn
 nltk
 numpy
+llama-index-embeddings-huggingface
