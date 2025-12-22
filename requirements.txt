@@ -1,4 +1,6 @@
-# --- Streamlit & UI ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core App
 streamlit
 streamlit_agraph
 streamlit-mic-recorder
@@ -8,7 +10,7 @@ matplotlib
 seaborn
 graphviz
 
-# --- LLM & LlamaIndex Core ---
+# LlamaIndex & AI
 llama-index
 llama-index-core
 llama-index-llms-gemini
@@ -18,7 +20,7 @@ google-generativeai
 python-dotenv
 duckduckgo-search
 
-# --- AI & NLP (Deep Learning) ---
+# NLP & Deep Learning (Heavy)
 torch
 transformers
 sentence-transformers
@@ -29,17 +31,17 @@ textblob
 nltk
 numpy
 
-# --- Document Processing ---
+# Document Tools
 pymupdf
 pypdf
 PyPDF2
 python-docx
 fpdf
 
-# --- Utilities ---
+# Utilities
 gTTS
 deep-translator
 IPython
 
-# --- Spacy Model (Must be last) ---
+# Spacy Model (Keep this last)
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
