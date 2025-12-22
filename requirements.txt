@@ -1,27 +1,45 @@
-llama-index
-google-generativeai
-llama-index-llms-gemini
-pypdf
-python-dotenv
-IPython
-llama-index-embeddings-gemini
+# --- Streamlit & UI ---
 streamlit
-gTTS
-fpdf
-deep-translator
-graphviz
-pypdf
-python-docx
-fitz
-frontend
-pymupdf
-wordcloud
 streamlit_agraph
 streamlit-mic-recorder
 plotly
-PyPDF2
-textblob
+wordcloud
+matplotlib
+seaborn
+graphviz
+
+# --- LLM & LlamaIndex Core ---
+llama-index
+llama-index-core
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+llama-index-embeddings-huggingface
+google-generativeai
+python-dotenv
+duckduckgo-search
+
+# --- AI & NLP (Deep Learning) ---
+torch
+transformers
+sentence-transformers
 scikit-learn
+spacy
+rank_bm25
+textblob
 nltk
 numpy
-llama-index-embeddings-huggingface
+
+# --- Document Processing ---
+pymupdf
+pypdf
+PyPDF2
+python-docx
+fpdf
+
+# --- Utilities ---
+gTTS
+deep-translator
+IPython
+
+# --- Spacy Model (Must be last) ---
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
