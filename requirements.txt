@@ -29,8 +29,7 @@ spacy
 rank_bm25
 textblob
 nltk
-numpy
-
+numpy<2.0.0
 # Document Tools
 pymupdf
 pypdf
