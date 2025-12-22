@@ -16,3 +16,6 @@ fitz
 frontend
 pymupdf
 wordcloud
+streamlit_agraph
+streamlit-mic-recorder
+plotly
