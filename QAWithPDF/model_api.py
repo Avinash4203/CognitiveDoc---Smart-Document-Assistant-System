@@ -23,9 +23,8 @@ def load_model():
     try:
         logging.info("Loading Gemini 1.5 Flash model...")
         
-        # FIX 1: The argument is 'model_name', NOT 'model'.
-        # FIX 2: Use "models/gemini-1.5-flash" to be explicit.
-        # Note: If you want Gemini 2.0 (Experimental), use "models/gemini-2.0-flash-exp"
+        
+    
         model = Gemini(
             model_name="models/gemini-flash-lite-latest", 
             temperature=0.2
