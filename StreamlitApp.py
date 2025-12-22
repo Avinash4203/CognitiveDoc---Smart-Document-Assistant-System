@@ -26,6 +26,21 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import PCA
 import numpy as np
 import nltk
+import subprocess
+import sys
+
+# ===================== AUTO-DOWNLOAD TEXTBLOB CORPORA =====================
+@st.cache_resource
+def download_corpora():
+    # Helper to check if a specific corpus is missing
+    try:
+        from textblob import TextBlob
+        _ = TextBlob("test").tags # Triggers lookup
+    except Exception:
+        # If missing, download all corpora (lite version is safer for cloud)
+        subprocess.run([sys.executable, "-m", "textblob.download_corpora", "lite"])
+
+download_corpora()
 
 # Fix for TextBlob/NLTK missing corpora
 try:
@@ -36,6 +51,7 @@ try:
     nltk.data.find('corpora/brown')
 except LookupError:
     nltk.download('brown')
+
 
 # NOTE: Ensure these modules exist in your environment
 from QAWithPDF.data_ingestion import load_data
