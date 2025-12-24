@@ -1,6 +1,6 @@
 
 
-# 🧠 CognitiveDoc
+# 🧠 CognitiveDoc---Smart-Document-Assistant-System
 
 > **Interact with your documents like never before.**
 > A Multimodal RAG-based AI Assistant that transforms static PDFs into interactive conversations, visual mind maps, and gamified knowledge checks.
@@ -98,8 +98,7 @@ Follow these steps to set up the project locally.
 ### 1. Clone the Repository
 Open your terminal or command prompt and run:
 ```bash
-git clone [https://github.com/yourusername/CognitiveDoc.git](https://github.com/yourusername/CognitiveDoc.git)
-cd CognitiveDoc
+git clone https://github.com/Avinash4203/CognitiveDoc---Smart-Document-Assistant-System.git
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
